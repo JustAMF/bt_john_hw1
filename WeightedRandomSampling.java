@@ -11,6 +11,7 @@ public class WeightedRandomSampling {
     double[] aggregatedW = null;
     int[] counts = null;
 
+    // sum of all elements in w must be 1
     WeightedRandomSampling(double[] w){
         int len = w.length;
         aggregatedW = new double[len];
